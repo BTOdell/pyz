@@ -32,7 +32,7 @@ def build(out_file_path, base, main, includes, unixify=None,
     :param min_version:
     :param max_version:
     :param exclusive_version:
-    :return:
+    :return: None
     """
     archive_base = "app"
     old_cwd = os.getcwd()
