@@ -139,16 +139,6 @@ def __add_include_path(zip_file, archive_path, include):
                 zip_file.write(filepath, os.path.join(archive_path, filepath))
 
 
-def __locate_site_packages_dir():
-    """
-    Searches the filesystem starting from the current working directory
-    to find the virtual environment's "site-packages" directory.
-
-    :return: str
-    """
-    pass
-
-
 class Include(object):
     """
     Represents a resource (file, directory, etc) to be included in the Python zip application.
