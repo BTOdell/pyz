@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = "0.3.0"
+version = "0.4.0"
 
 
 def readme():
@@ -19,7 +19,7 @@ setup(
     download_url="https://github.com/BTOdell/pyz/archive/{0}.tar.gz".format(version),
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
