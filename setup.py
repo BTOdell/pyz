@@ -1,23 +1,26 @@
 from setuptools import setup, find_packages
 
 
+version = "0.3.0"
+
+
 def readme():
-    with open('README.rst') as f:
+    with open("README.md") as f:
         return f.read()
 
 
 setup(
     name="pyz",
-    version="0.2.0",
-    description="Package all source code and dependencies into a single Python zip application.",
+    version=version,
+    description="Packages all source code and dependencies into a single Python zip application.",
     long_description=readme(),
     author="Bradley Odell",
     author_email="btodell@hotmail.com",
     url="https://github.com/BTOdell/pyz",
-    download_url="https://github.com/BTOdell/pyz/archive/0.2.0.tar.gz",
+    download_url="https://github.com/BTOdell/pyz/archive/{0}.tar.gz".format(version),
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
