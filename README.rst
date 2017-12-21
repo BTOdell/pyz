@@ -10,7 +10,7 @@ Deploying a Python application any larger than a single file is
 cumbersome - this library aims to solve that problem.
 
 Python has been able to run code from within a zip file since version
-2.6. Python 3.5 introduced a `zipapp <https://docs.python.org/3/library/zipapp.html>`__ module
+2.6. Python 3.5 introduced the `zipapp <https://docs.python.org/3/library/zipapp.html>`__ module
 which aims to simplify the process of creating a zip application.
 However, **zipapp** isn't a complete solution to the problem - it
 doesn't handle dependencies and it doesn't include certain extra
