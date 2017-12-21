@@ -1,7 +1,7 @@
 pyz
 ===
 
-_Packages all source code and dependencies into a single Python zip application._
+*Packages all source code and dependencies into a single Python zip application.*
 
 Summary
 -------
