@@ -8,16 +8,16 @@ def readme():
 
 setup(
     name="pyz",
-    version="0.1.4",
+    version="0.2.0",
     description="Package all source code and dependencies into a single Python zip application.",
     long_description=readme(),
     author="Bradley Odell",
     author_email="btodell@hotmail.com",
     url="https://github.com/BTOdell/pyz",
-    download_url="https://github.com/BTOdell/pyz/archive/0.1.4.tar.gz",
+    download_url="https://github.com/BTOdell/pyz/archive/0.2.0.tar.gz",
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
