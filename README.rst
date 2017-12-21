@@ -26,7 +26,7 @@ Features
 --------
 
 1. Bundle all Python source code with fine-grained control over included files.
-2. Ability to "unixify” the output application by prepending a customizable
+2. Ability to "unixify" the output application by prepending a customizable
    `shebang <https://en.wikipedia.org/wiki/Shebang_(Unix)>`__.
 3. Python interpreter version check - display a friendly notice instead
    of a Python exception if the user runs your application using an
