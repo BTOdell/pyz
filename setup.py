@@ -1,11 +1,10 @@
 from setuptools import setup, find_packages
 
-
 version = "0.3.0"
 
 
 def readme():
-    with open("README.md") as f:
+    with open("README.rst") as f:
         return f.read()
 
 
